@@ -3,5 +3,4 @@ $(document).ready(function () {
         $('.navcelular').toggleClass('ativo');
         $('.btn-celular').find('i').toggleClass('fa-x');
     });
-    
-});
+ 
