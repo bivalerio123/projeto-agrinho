@@ -47,46 +47,50 @@ header {
 
 .navitem.ativo {
     color: #1d1d1d;
-    border-bottom: 3px solid #da45ff
 
-.btn-celular {
-    display: none;
-}
+    border-bottom: 3px solid #da45ff;
 
-.navcelular {
-    display: none;
-}
-
-@media (max-width: 768px) {
-    .navlista, .navbar .btn-pedido {
+    .btn-celular {
         display: none;
     }
 
-    .btn-celular {
-        display: block;
-        border: none;
-        background-color: transparent;
-        font-size: 1.5rem;
-        color: #da45ff;
-        cursor: pointer;
+    .navcelular {
+        display: none;
     }
-}
 
-.navcelular.ativo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    @media (max-width: 768px) {
 
-.celularnavlista {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin: 12px 0;
+        .navlista,
+        .navbar .btn-pedido {
+            display: none;
+        }
 
-}
+        .btn-celular {
+            display: block;
+            border: none;
+            background-color: transparent;
+            font-size: 1.5rem;
+            color: #da45ff;
+            cursor: pointer;
+        }
+    }
 
-.celularnavlista .navitem {
-    list-style: none;
-    align-items: center;
-}
+    .navcelular.ativo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .celularnavlista {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0;
+
+    }
+
+    .celularnavlista .navitem {
+        list-style: none;
+        align-items: center;
+    
+    }
