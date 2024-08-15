@@ -23,7 +23,7 @@ header {
 #navlogo {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #e9a209;
+    color: #d609e9;
 }
 
 .navlista {
@@ -42,13 +42,12 @@ header {
 }
 
 .navitem a:hover {
-    color: #ffe100;
+    color: #da45ff;
 }
 
 .navitem.ativo {
     color: #1d1d1d;
-    border-bottom: 3px solid #ffe100;
-}
+    border-bottom: 3px solid #da45ff
 
 .btn-celular {
     display: none;
