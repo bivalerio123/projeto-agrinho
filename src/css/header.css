@@ -42,9 +42,7 @@ header {
 }
 
 .navitem a:hover {
-    color: #da45ff;
-}
-
+    color: #b95f3c
 .navitem.ativo {
     color: #1d1d1d;
 
