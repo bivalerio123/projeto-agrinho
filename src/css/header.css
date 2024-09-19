@@ -23,10 +23,7 @@ header {
 #navlogo {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #d609e9;
-}
-
-.navlista {
+    color: #b95f3c;
     display: flex;
     list-style: none;
     gap: 40px;
@@ -42,7 +39,7 @@ header {
 }
 
 .navitem a:hover {
-    color: #b95f3c
+    color: #b95f3c;
 .navitem.ativo {
     color: #1d1d1d;
 
