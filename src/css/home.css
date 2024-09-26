@@ -23,11 +23,12 @@
 #banner {
     display: flex;
     justify-content: end;
-    align-items: end;width: 70%;
+    align-items: end;
+    width: 70%;
 }
 
 #banner img {
     width: fit-content;
-    height: 70%;
-    margin-bottom: 150px;
+    height: 100%;
+    margin-bottom: 900px;
 }
