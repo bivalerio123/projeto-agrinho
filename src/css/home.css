@@ -23,7 +23,7 @@
 #banner {
     display: flex;
     justify-content: end;
-    align-items: center;
+    align-items: start;
     width: 50%;
 }
 
