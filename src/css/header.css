@@ -40,10 +40,12 @@ header {
 
 .navitem a:hover {
     color: #b95f3c;
+}
 .navitem.ativo {
     color: #1d1d1d;
 
     border-bottom: 3px solid #da45ff;
+}
 
     .btn-celular {
         display: none;
