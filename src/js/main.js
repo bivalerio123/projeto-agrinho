@@ -1,12 +1,12 @@
 $(document).ready(function () {
     $('.btn_celular').on('click', function () {
-        $('.nav_celular').toggleClass('ativo');
-        $('.btn_celular').find('i').toggleClass('fa-x');
+        $('.navcelular').toggleClass('ativo');
+        $('.btn-celular').find('i').toggleClass('fa-x');
     });
 });
 //puxar as classes e ids do html, o $ Ã© um atalho para o jquery, que Ã© uma biblioteca do javascript. ele serve para selecionar elementos do html.
 const sections = $('section');
-const navItens = $('.nav_item');
+const navItens = $('.navitem');
 
 //agora vamos abrir uma funÃ§Ã£o para scrollar a pÃ¡gina, alternar entre as seÃ§Ãµes e mudar a cor do item do menu.
 $(window).on('scroll', function () {
