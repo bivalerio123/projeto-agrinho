@@ -1,4 +1,4 @@
-#caixa_produtos{
+#caixa_produtos {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -6,7 +6,7 @@
    min-height: 100vh;
 }
 
-.produtos{
+.produtos {
     width: 100%;
     display: flex;
     justify-content: center;
